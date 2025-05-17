@@ -14,7 +14,6 @@ class SubscriptionManagerServiceProvider extends PackageServiceProvider
     {
         $package->name('laravel-subscription-manager')
             ->hasConfigFile()
-            ->hasViews()
             ->hasMigration('create_features_table')
             ->hasMigration('create_plans_table')
             ->hasMigration('create_plan_feature_table')
